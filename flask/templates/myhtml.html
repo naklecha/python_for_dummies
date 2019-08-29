@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" type = "text/css" href = "/static/styles/mycss.css">
+    <body>
+        <span>{{mymsg}}</span> <br>
+
+        {% for ele in arr %} 
+            {{ele}}
+        {% endfor %} <br>
+
+        {% if flag==1 %}
+            <span style='color: green;'>&#10004;</span>
+        {% else %}
+            <span style='color: red;'>&#10006;</span>
+        {% endif %} <br>
+
+        <img src="/static/myimg.PNG"> <br>
+    </body>
+</html>
